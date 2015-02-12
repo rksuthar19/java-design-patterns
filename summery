@@ -7,3 +7,4 @@ abstract factory-Provide an interface for creating families of related or depend
 
 Behavioral Patterns------
 visitor-Represent an operation to be performed on elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates. Visitable "accepts" Visitor and there are multiple VisitableElements and multiple VisitorDepending upon element.
+strategy-TempFile.createFile() TempFile class have file creation strategy ..by implementing new strategy you can specify how to create temp file.
