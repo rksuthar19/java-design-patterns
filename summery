@@ -13,3 +13,12 @@ state-vending machine producing diff-diff result based on state
 
 Structural Patterns------
 Adapter-Convert the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+Service locator- 
+      Service service = ServiceLocator.getService("Service1");
+      service.execute();
+      service = ServiceLocator.getService("Service2");
+      service.execute();
+      service = ServiceLocator.getService("Service1");
+      service.execute();
+      service = ServiceLocator.getService("Service2");
+      service.execute();		
