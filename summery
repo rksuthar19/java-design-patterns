@@ -33,3 +33,8 @@ ex- a ShapeMaker which have all shape creater instances in it and provide differ
 Proxy-
 Proxy is applicable whenever there is a need for a more versatile or sophisticated reference to an object than a simple pointer.
 ex- transaction
+
+Chain of Responsibility Pattern-
+example : chain of logger
+
+
