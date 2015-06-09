@@ -9,3 +9,7 @@ Behavioral Patterns------
 visitor-Represent an operation to be performed on elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates. Visitable "accepts" Visitor and there are multiple VisitableElements and multiple VisitorDepending upon element.
 strategy-TempFile.createFile() TempFile class have file creation strategy ..by implementing new strategy you can specify how to create temp file.
 state-vending machine producing diff-diff result based on state
+
+
+Structural Patterns------
+Adapter-Convert the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
