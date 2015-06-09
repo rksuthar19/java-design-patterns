@@ -25,3 +25,11 @@ Service locator-
 (
 The service locator design pattern is used when we want to locate various services using JNDI lookup. Considering high cost of looking up JNDI for a service, Service Locator pattern makes use of caching technique. For the first time a service is required, Service Locator looks up in JNDI and caches the service object. Further lookup or same service via Service Locator is done in its cache which improves the performance of application to great extent. Following are the entities of this type of design pattern.
 )
+
+Facade-
+This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
+ex- a ShapeMaker which have all shape creater instances in it and provide different shape creation logic as drawRect() drawCircle() etc.
+
+Proxy-
+Proxy is applicable whenever there is a need for a more versatile or sophisticated reference to an object than a simple pointer.
+ex- transaction
